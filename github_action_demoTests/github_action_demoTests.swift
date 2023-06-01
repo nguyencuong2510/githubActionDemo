@@ -18,4 +18,8 @@ final class github_action_demoTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
+    func testAsset() {
+        XCTAssertTrue(true)
+    }
+
 }

@@ -11,7 +11,7 @@ class HomeViewModel {
     
     var list: [String] = []
     
-    func add() {
+    func add() { 
         list = Array(0..<10).map({ return "item \($0)" })
     }
 }
