@@ -16,6 +16,7 @@
 		5CEAC1A92A28E22700E3A2DA /* github_action_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEAC1A82A28E22700E3A2DA /* github_action_demoTests.swift */; };
 		5CEAC1B32A28E22700E3A2DA /* github_action_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEAC1B22A28E22700E3A2DA /* github_action_demoUITests.swift */; };
 		5CEAC1B52A28E22700E3A2DA /* github_action_demoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEAC1B42A28E22700E3A2DA /* github_action_demoUITestsLaunchTests.swift */; };
+		5CEAC1C22A28E23B00E3A2DA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEAC1C12A28E23B00E3A2DA /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5CEAC1AE2A28E22700E3A2DA /* github_action_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = github_action_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CEAC1B22A28E22700E3A2DA /* github_action_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = github_action_demoUITests.swift; sourceTree = "<group>"; };
 		5CEAC1B42A28E22700E3A2DA /* github_action_demoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = github_action_demoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5CEAC1C12A28E23B00E3A2DA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				5CEAC19A2A28E22700E3A2DA /* Assets.xcassets */,
 				5CEAC19C2A28E22700E3A2DA /* LaunchScreen.storyboard */,
 				5CEAC19F2A28E22700E3A2DA /* Info.plist */,
+				5CEAC1C12A28E23B00E3A2DA /* HomeViewModel.swift */,
 			);
 			path = github_action_demo;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				5CEAC1962A28E22600E3A2DA /* ViewController.swift in Sources */,
 				5CEAC1922A28E22600E3A2DA /* AppDelegate.swift in Sources */,
+				5CEAC1C22A28E23B00E3A2DA /* HomeViewModel.swift in Sources */,
 				5CEAC1942A28E22600E3A2DA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
