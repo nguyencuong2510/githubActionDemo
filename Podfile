@@ -5,7 +5,7 @@ target 'github_action_demo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for github_action_demo
+  pod 'Alamofire'
 
   target 'github_action_demoTests' do
     inherit! :search_paths
